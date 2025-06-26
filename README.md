@@ -1,5 +1,7 @@
-# Reactive Table
+# Blaze Reactive Table
 A reactive table for Meteor, using [Blaze](https://github.com/meteor/blaze).
+
+**This is a fork of the original [aslagle:reactive-table](https://github.com/aslagle/reactive-table) package with added support for Meteor 3.0 while maintaining backward compatibility with Meteor 2.0.**
 
 
 ### Table of Contents
@@ -34,7 +36,7 @@ A reactive table for Meteor, using [Blaze](https://github.com/meteor/blaze).
 
 Install reactive table:
 
-    meteor add aslagle:reactive-table
+    meteor add vlasky:blaze-reactive-table
 
 
 This package adds a template called reactiveTable. Create and subscribe to a collection, and pass it to the template:
@@ -628,4 +630,4 @@ We currently have translations (except the 'Columns' button) for:
 - Turkish (tr)
 - Ukrainian (ua)
 
-For other languages or the 'Columns' button, contribute a translation to [reactive_table_i18n.js](https://github.com/aslagle/reactive-table/blob/master/lib/reactive_table_i18n.js).
+For other languages or the 'Columns' button, contribute a translation to [reactive_table_i18n.js](https://github.com/vlasky/meteor-blaze-reactive-table/blob/master/lib/reactive_table_i18n.js).
